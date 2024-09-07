@@ -1,0 +1,75 @@
+/* Container Styles */
+.container {
+    max-width: 1200px; /* Limits the width for better readability */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 40px 20px; /* Adds padding for spacing */
+    background-color: #ffffff; /* Clean white background */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  /* Section Title Styles */
+  .section-title {
+    font-size: 2.5rem; /* Large font size for emphasis */
+    font-weight: 700; /* Bold text for prominence */
+    color: #2c3e50; /* Dark slate color for text */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center-aligns the title */
+  }
+  
+  /* Paragraph Styles */
+  .container p {
+    font-size: 1.2rem; /* Slightly larger font size for readability */
+    line-height: 1.6; /* Increases line height for better readability */
+    color: #34495e; /* Darker gray color for text */
+    margin-bottom: 30px; /* Space below the paragraph */
+    text-align: center; /* Center-aligns the text */
+    max-width: 800px; /* Limits paragraph width for better readability */
+    margin-left: auto; /* Center-aligns paragraph */
+    margin-right: auto; /* Center-aligns paragraph */
+  }
+  
+  /* Description Block Styles */
+  .desc {
+    margin-top: 20px; /* Space above the description block */
+  }
+  
+  /* Section Subtitle Styles */
+  .section-subtitl { /* Fixed typo in class name */
+    font-size: 2rem; /* Slightly smaller than the main title */
+    font-weight: 600; /* Semi-bold text */
+    color: #2c3e50; /* Matches the main title color */
+    margin-bottom: 15px; /* Space below the subtitle */
+    text-align: center; /* Center-aligns the subtitle */
+  }
+  
+  /* List Styles */
+  .desc ul {
+    list-style: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    display: flex; /* Aligns list items in a row */
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    gap: 20px; /* Space between list items */
+    justify-content: center; /* Center-aligns the list items */
+  }
+  
+  /* List Item Styles */
+  .desc li {
+    background-color: #f1f1f1; /* Light gray background for list items */
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 6px; /* Rounded corners */
+    padding: 15px 20px; /* Padding inside list items */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    text-align: center; /* Center-aligns text inside list items */
+    font-size: 1.1rem; /* Slightly larger font size */
+    font-weight: 500; /* Semi-bold text */
+    width: 220px; /* Fixed width for consistent sizing */
+  }
+  
+  /* List Item Hover Styles */
+  .desc li:hover {
+    background-color: #e0e0e0; /* Slightly darker gray background on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-4px); /* Slight lift effect on hover */
+  }
+  
